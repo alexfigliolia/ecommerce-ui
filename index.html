@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>Apartments</title>
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header>
+            <div class='show-cart' id='toCart'>
+                <div id='mgoats'></div>
+            </div>
+            <h1 class='logo router' data-page='templates/home.html'>Italia Presents</h1>
+            <div id='burg'>
+                <div id="menu-icon-wrapper" class="menu-icon-wrapper scaled" style="visibility: hidden">
+                     <svg width="1000px" height="1000px">
+                        <path id="pathA" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                        <path id="pathB" d="M 300 500 L 700 500"></path>
+                        <path id="pathC" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                    </svg>
+                    <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+                </div><!-- menu-icon-wrapper -->
+            </div>
+            <nav id='hLinks'>
+                <h2 class='router home-link' data-page="templates/home.html">HOME</h2>
+                <h2 class='router shop-link' data-page="templates/shop.html">SHOP</h2>
+                <h2 class='router' data-page="templates/contact.html">CONTACT</h2>
+                <h2 class='show-cart'><img height="35px" src='icons/cart3.svg'><div id='mgoats2'></h2>
+            </nav>
+        </header>
+        <div id='pageBody'>
+            <div class='banner'>
+                <div class='center'>
+                    <h1>Farm to table food products</h1>
+                    <div>
+                        <button class='explore router' data-page='templates/shop.html'></button>
+                        <button id='about'></button>
+                    </div>
+                </div>
+                <!-- <div id='sc'>
+                    <button id='scroll'>
+                        <img id='i1' src='icons/down.svg'>
+                        <img id='i2' src='icons/down.svg'>
+                    </button>
+                </div> -->
+            </div>
+
+            <div id='abt' class='intro'>
+                <div>
+                    <div class='img-container'>
+                        <img src='img/bpizza1.jpg'>
+                    </div>
+                    <div class='text-container'>
+                        <p>Our products are true farm to table blah blah from the best farms in Italy. I once farted on a tomato and it didnt effect the taste at all. I ended up throwing it on a piece of bread with some cheese and onion</p>
+                        <p>A variation on the most known classic pesto: this version s made with organic cherries tomatoes and farm grown spices such as oregano, basil and thyme.  Also a touch of extra vergin Tuscan olive oil is used to give it an unforgettable taste.</p>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+            <div class='products'>
+                <h2 class='strike'>Best Sellers</h2>
+                <div class='center pc' data-flickity='{"contain": true, "watchCSS": true}'>
+                    <div class='product'>
+                        <div class='p-img'>
+                            <img src='img/bruschetta_l.jpg'>
+                            <h3>Bruschetta</h3>
+                        </div>
+                        <div class='p-buttons'>
+                            <button data-text="MORE"></button>
+                            <button class='buy' data-product='Bruschetta' data-price='15' data-text="BUY"></button>
+                        </div>
+                        <div class='price'>$15</div>
+                    </div>
+                    <div class='product'>
+                        <div class='p-img'>
+                            <img src='img/pesto_mediterraneo_l.jpg'>
+                             <h3>Pesto Mediterraneo</h3>
+                        </div>
+                        <div class='p-buttons'>
+                            <button data-text="MORE"></button>
+                            <button class='buy' data-product='Pesto Mediterraneo' data-price='15' data-text="BUY"></button>
+                        </div>
+                        <div class='price'>$15</div>
+                    </div>
+                    <div class='product'>
+                        <div class='p-img'>
+                            <img src='img/salsa_basilico_l.jpg'>
+                             <h3>Salsa Basilico</h3>
+                        </div>
+                        <div class='p-buttons'>
+                            <button data-text="MORE"></button>
+                            <button class='buy' data-product='Salsa Basilico' data-price='15' data-text="BUY"></button>
+                        </div>
+                        <div class='price'>$15</div>
+                    </div>
+                </div>
+            </div>
+            <div id='seeAll'>
+                <button class='router' data-page="templates/shop.html"></button>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <h1 class='router logo' data-page="templates/home.html">Italia Presents</h1>
+                <h2 class='router' data-page="templates/shop.html">Shop <img src='icons/cart3.svg'></h2>
+                <h2 class='router' data-page="templates/contact.html">Contact <img src='icons/0070-envelop.svg'></h2>
+                <h2>Connect with Us <img src='icons/0387-share2.svg'></h2>
+            </div>
+        </footer>
+        <div class='reveal' id='r1'>1</div>
+        <div class='reveal' id='r2'>2</div>
+        <div class='reveal' id='r3'>3</div>
+        <div class='reveal' id='r4'>GO!</div>
+
+        <div id='menu'>
+            <div id='m1'></div>
+            <div id='m2'></div>
+            <div id='mmLinks'>
+                <h2 id='mmHome' data-page="templates/home.html">Home</h2>
+                <h2 id='mmShop' data-page="templates/shop.html">Shop</h2>
+                <h2 data-page="templates/contact.html">Contact</h2>
+                <h2 id='mmCart'>Cart</h2>
+            </div>
+        </div>
+        <div id='shoppingCart'>
+            <div class='center'>
+                <h1>My Cart</h1>
+                <div id='table'>
+                    <h2 id='emptyCart'>Your cart is empty!</h2>
+                </div>
+                <div id='total'><h3>Total: $0</h3></div>
+                <div id='bdogs'>
+                    <button id='shopMore'></button>
+                    <button id='checkout'></button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="js/segment.min.js"></script>
+        <script src="js/ease.min.js"></script>
+        <script src="js/app.js"></script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
